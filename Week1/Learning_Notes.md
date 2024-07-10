@@ -10,7 +10,7 @@
 
 
 
-![缺失值处理](https://github.com/puraGH/UniqueAI2024SummerCamp/blob/xiayu/Week1/%E7%BC%BA%E5%A4%B1%E5%80%BC%E5%A4%84%E7%90%86.png?raw=true)
+![缺失值处理](https://github.com/puraGH/UniqueAI2024_SummerCamp/blob/main/Week1/%E7%BC%BA%E5%A4%B1%E5%80%BC%E5%A4%84%E7%90%86.png?raw=true)
 
 
 
