@@ -128,6 +128,25 @@ def ZscoreNormalization(data, mean, std):
 
 
 
+# OneHotEncoder独热编码
+
+​	独热码，在英文文献中称做 one-hot code, 直观来说就是有多少个状态就有多少比特，而且只有一个比特为1，其他全为0的一种码制。
+
+​	我们在进行建模时，变量中经常会有一些变量为离散型变量，例如性别。这些变量我们一般无法直接放到模型中去训练模型。因此在使用之前，我们往往会对此类变量进行处理。一般是对离散变量进行one-hot编码。one hot encoder能将离散特征转化为二进制向量特征的函数，二进制向量每行最多有一个1来表示对应的离散特征某个值。
+
+​	有两种哑编码的实现方法，[pandas](https://so.csdn.net/so/search?q=pandas&spm=1001.2101.3001.7020)和sklearn。它们最大的区别是，pandas默认只处理字符串类别变量，sklearn默认只处理数值型类别变量(需要先 LabelEncoder )
+
+pandas：
+```python
+import pandas as pd  
+  
+#data的数据类型必须是DataFrame, Series或array-like
+dummies = pd.get_dummies(data)  
+print(dummies)
+```
+
+
+
 
 
 
