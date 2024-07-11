@@ -26,9 +26,8 @@
 | isna()   | 若返回的值为True，说明存在缺失值  |
 
 
+
 ## 3. 缺失值的处理方法
-
-
 
 ### 3.1  删除
 
@@ -87,6 +86,26 @@ data_train_knn
 ```
 
 
+
+# 数据的标准化与归一化
+
+归一化和标准化都是对数据做变换的方式，将原始的一列数据转换到某个范围，或者某种形态
+
+## 归一化
+
+归一化(N o r m a l i z a t i o n NormalizationNormalization)：将一列数据变化到某个固定区间(范围)中，通常，这个区间是[0, 1]，广义的讲，可以是各种区间，比如映射到[0，1]一样可以继续映射到其他范围，图像中可能会映射到[0,255]，其他情况可能映射到[-1,1]；
+
+![归一化](https://github.com/puraGH/UniqueAI2024_SummerCamp/blob/main/Week1/%E6%95%B0%E6%8D%AE%E5%BD%92%E4%B8%80%E5%8C%96.png?raw=true)
+
+
+
+## 标准化
+
+标准化(Standardization)：将数据变换为均值为0，标准差为1的分布切记，并非一定是正态的；
+
+中心化：另外，还有一种处理叫做中心化，也叫零均值处理，就是将每个原始数据减去这些数据的均值。
+
+![标准化](https://github.com/puraGH/UniqueAI2024_SummerCamp/blob/main/Week1/%E6%95%B0%E6%8D%AE%E6%A0%87%E5%87%86%E5%8C%96.png?raw=true)
 
 
 
