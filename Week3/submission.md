@@ -6,13 +6,15 @@
 
 ​	在autodl云服务器上成功部署文档中推荐的[stable-diffusion-webui基础版本]([AUTOMATIC1111/stable-diffusion-webui: Stable Diffusion web UI (github.com)](https://github.com/AUTOMATIC1111/stable-diffusion-webui))，并成功启动webui界面进行ai创作，在部署过程中遇到过环境配置失败，网速连接太慢，项目文件缺少，git无法拉取等问题，也都一一能够解决。
 
+![stable-diffusion部署](https://github.com/puraGH/UniqueAI2024_SummerCamp/blob/main/Week3/sd%E9%83%A8%E7%BD%B2.png?raw=true)
+
 
 
 ## Lora训练器部署
 
 在同一台云服务器上成功部署[kohya_ss官方项目]([bmaltais/kohya_ss (github.com)](https://github.com/bmaltais/kohya_ss))，其能够在GUI里进行Lora微调训练，在部署过程中也是遇到与sd部署类似的问题。
 
-
+![Lora服务器部署](https://github.com/puraGH/UniqueAI2024_SummerCamp/blob/main/Week3/Lora%E8%AE%AD%E7%BB%83%E9%83%A8%E7%BD%B2.png?raw=true)
 
 
 
